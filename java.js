@@ -1,3 +1,10 @@
+// LOADER
+var loader = document.getElementById("loader") ;
+window.addEventListener("load" , function(){
+    loader.style.display = "none" ;
+})
+
+
 // NAVBAR
 
 const navToggle  = document.querySelector('.nav-toggle');
