@@ -176,9 +176,7 @@
     .hero{
     min-height: 100vh; 
     background-image: url(img/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;}
+    background-size: cover;}
 
     .hero__sub{height: 100vh; } /* NO BACKGROUND FOR SUB PAGES  */
 
@@ -617,7 +615,7 @@
     bottom:30%;
     padding: 1em;
     display: flex;
-    width:50%;
+    width:60%;
     justify-content: space-between;}
 
 .footer__txt{
@@ -652,10 +650,11 @@
     letter-spacing: 0.2em;}
 
 .portfolio__title{ 
-    padding:2em 2em;
+    margin: 4rem  1.5rem;
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.8em;
+    line-height: 1.2;
     color: var(--clr-primary);
     font-weight: var(--fw-light);}
 
@@ -685,17 +684,6 @@
 .service-item-individual{
     position: relative; }
 
-/* .service__individual2,
-.service__individual4,
-.service__individual6,
-.service__individual9,
-.service__individual11,
-.service__individual13,
-.service__individual15,
-.service__individual17,
-.service__individual19,
-.service__individual21,
-.service__individual23{ */
     .service__item-pink{
     background: var(--clr-secondary);}
 
@@ -793,11 +781,11 @@
 /* MEDIA BELOW 400 PX */
 @media (max-width: 400px ) {
     .form__button{ width: 140px ;}
-    .hero{background-position: -320px -170px ;}}
+    .hero{background-position: -380px -80px ;}}
 
 /* MEDIA 400 PX  */
 @media (min-width: 400px ) {
-    .hero{background-position: -420px -170px ;}
+    .hero{background-position: -420px -100px ;}
     .portfolio__txt-individual  {padding: 1em;}
     .vision__container {padding: 0 2em;}}
 
@@ -832,9 +820,9 @@
         .rectangle__pink,.rectangle__blue{height: 300px;}
         .hero__logo{ margin-top: 1em;}
         .hero__title {letter-spacing: 0.8em;}              
-        .hero_p {margin-left: 0.8em; letter-spacing: 0.4em;}   
-        .hero__subtitle {letter-spacing: 15px;}  
+        .hero_p {margin-left: 0.8em; letter-spacing: 0.4em;}     
         .hero__button{margin-top: 10em; }
+        .portfolio__title{margin: 16rem  6rem;}
         .portfolio__subtitle {margin-top: 8em; margin-bottom: 5em;}}
     
 /* MEDIA 1000PX */
