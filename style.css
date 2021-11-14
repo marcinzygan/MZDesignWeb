@@ -587,10 +587,12 @@
     height:36px;
     width: 36px;
     cursor:pointer;
-    color:var(--clr-primary);}
-
+    fill: #FFFFFF;
+    }
+  
+    
 .iconify:hover{
-    color:var(--clr-accent);}
+    fill:var(--clr-accent);}
 
  .footer__bottom{
     position: relative;
