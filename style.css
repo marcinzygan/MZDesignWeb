@@ -228,7 +228,7 @@
     .nav__link {
      color: inherit;
      font-family: var(--ff-primary);
-     font-weight: var(--fw-bold);
+     font-weight: var(--fw-regular);
      font-size: var(--fs-h2);
      text-decoration: none;
      text-transform: uppercase;
