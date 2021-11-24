@@ -165,14 +165,6 @@
   
 /* HERO SECTION */
 
-    .logo__img{position:absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-left: 0.5em;
-    margin-top: 0.5em;}
-
     .hero{
     min-height: 100vh; 
     background-image: url(img/background.jpg);
@@ -204,7 +196,7 @@
     color: var(--clr-primary);
     font-size: 0.8rem ;
     font-family: var(--ff-primary);
-    font-weight: var(--fw-light);}
+    font-weight: var(--fw-regular);}
 
     .nav__link:hover{
     color: var(--clr-accent);}
@@ -236,7 +228,7 @@
     .nav__link {
      color: inherit;
      font-family: var(--ff-primary);
-     font-weight: var(--fw-regular);
+     font-weight: var(--fw-bold);
      font-size: var(--fs-h2);
      text-decoration: none;
      text-transform: uppercase;
@@ -332,6 +324,7 @@
     margin-left: 0.5em;}    
 
     .hero__subtitle {
+    font-family: var(--ff-primary);   
     margin-top: 8rem;
     text-align: center;
     letter-spacing: 0.2em;}
@@ -359,7 +352,11 @@
     color: var(--clr-primary);}
 
     #work__btn{
-    margin-top: 8rem;}  
+    position: absolute;
+    margin: 0 auto;
+    bottom:20%;
+    left:50%;
+    transform: translate(-50% , -20%);}      
 
     .btn:hover {
     color: var(--clr-primary);
