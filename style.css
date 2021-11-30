@@ -633,14 +633,14 @@
 .form__email{height: 30px;}
 /* PORTFOLIO INDIVIDUAL ITEMS PAGE */
 
-.portfolio-item-intro{
+/* .portfolio-item-intro{
     margin-top: 8em;
     background: var(--clr-dark);
     color: var(--clr-dark);}
 
 .portfolio-item-intro2{ background: #FFFFFF; }
 .portfolio__img-intro{
-    margin:0 auto;}
+    margin:0 auto;} */
 
 .portfolio__subtitle{
     text-align: center;
