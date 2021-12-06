@@ -167,8 +167,9 @@
 
     .hero{
     min-height: 100vh; 
-    /* background-image: url(img/background.jpg); */
-    background-size: cover;}
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    }
 
     .hero__sub{height: 100vh; } /* NO BACKGROUND FOR SUB PAGES  */
 
